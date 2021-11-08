@@ -35,12 +35,12 @@ import org.w3c.dom.Node;
         id = "GetIP",
         name = "GetIP.Name",
         description = "GetIP.TooltipDesc",
-        image = "com/sotech/pdi/plugin/checkip/resources/chekip.svg",
+        image = "org/pentaho/di/steps/getip/resources/getip.svg",
         categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Utility",
-        i18nPackageName = "com.sotech.pdi.plugin.checkip",
+        i18nPackageName = "org.pentaho.di.steps.getip",
         documentationUrl = "https://github.com/rclaros/pdi-get-ip-plugin/blob/main/README.md"
 )
-@InjectionSupported(localizationPrefix = "CheckipMeta.Injection.")
+@InjectionSupported(localizationPrefix = "GetIpMeta.Injection.")
 public class GetIpMeta extends BaseStepMeta implements StepMetaInterface {
 
     private static final Class<?> PKG = GetIpMeta.class; // for i18n purposes

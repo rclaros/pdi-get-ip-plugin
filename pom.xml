@@ -7,8 +7,8 @@
     <artifactId>kettle-sdk-plugin-parent</artifactId>
     <version>8.2.0.0-342</version>
   </parent>
-  <artifactId>kettle-sdk-step-getip</artifactId>
-  <version>8.2.0.0-342</version>
+  <artifactId>pdi-get-ip-plugin</artifactId>
+  <version>1.0.0</version>
   <name>Get IP Step Plugin</name>
   <dependencyManagement>
     <dependencies>
