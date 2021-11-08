@@ -1,2 +1,3 @@
-# pdi-get-public-ip-plugin
-PDI Get Public IP Plugin
+
+
+mvn clean package -B --settings settings.xml -Dmaven.test.skip=true
